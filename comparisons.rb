@@ -97,15 +97,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-puts loves_to_play && loves_treats
+puts "Does the dog love to play and love treats?", loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts "Does the dog love to play and love the dog park?", loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts "Does the dog love to play or love the dog park?", loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts "Does the dog love to play and is a puppy?", loves_to_play && age <=2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code evaluated to true because I asked if the dog was less than 2 years old (how I'd define a puppy.)
